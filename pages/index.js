@@ -7,7 +7,10 @@ export default function Home() {
     <div className="main">
       <Navbar />
       <HomePage />
-      <Footer />
     </div>
   );
 }
+//F5EFE6
+//E8DFCA
+//AEBDCA
+//7895B2
