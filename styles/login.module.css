@@ -1,0 +1,106 @@
+.current {
+   
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    width:400px;
+  
+    padding: 40px;
+    height: 350px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color:#b7c5d2;
+  
+}
+.inputs {
+    margin:auto;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+.newbox{
+    margin: auto;
+    text-align: center;
+
+
+}
+.loginheading{
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:#68819a;
+
+}
+.buttonfinal{
+    border: 1px solid rgba(218, 212, 212, 0.933);
+    margin-top:40px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#7895B2;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.buttonfinal:hover{
+   background-color:#E14D24 ;
+}
+.labelnames{
+border: 1px solid transparent; 
+padding-top: 10px;
+text-align: left;
+
+}
+.mainbox{
+  
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color:white ;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border:1px solid transparent;
+    width:60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.logoimgs{
+    border-radius: 1px solid;
+    width: 400px;
+}
+.logoimge{
+    width:100%;
+}
+.form{
+    margin: auto;
+}
+.signin{
+    color: #E14D24 ;
+    font-weight: bold;
+}
+.signin:hover{
+    
+    font-weight: bold;
+    color: #7895B2;
+}
+
+.quote{
+    text-align: center;
+
+    color: #60809f;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
