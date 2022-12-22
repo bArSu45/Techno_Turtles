@@ -27,7 +27,8 @@ export default function Navbar() {
           <Text>Classes</Text>
           <Text>About</Text>
           <Text>
-            Login/Signup <IoMdLogIn />
+            Login/Signup 
+            {/* <IoMdLogIn /> */}
           </Text>
         </Flex>
       </Flex>
