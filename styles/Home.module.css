@@ -1,92 +1,101 @@
-
-#main_div{
+#main_div {
     width: 90%;
     margin: auto;
     padding-top: 60px;
 }
-#first_div{
-display: flex;
-/* border: 2px solid red; */
-justify-content: space-between;
 
+#first_div {
+    display: flex;
+    justify-content: space-between;
+}
 
+#first_para_div {
+    width: 60%;
+    font-size: 50px;
+    color: #406882;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: start;
+    padding: 10px 10px 10px 10px;
 }
-#first_para_div{
-width: 60%;
-/* border: 1px solid blue; */
-font-size: 50px;
-color: #406882;
-font-weight: 700;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: start;
-padding: 10px 10px 10px 10px;
+
+#first_para_div>h1:hover {
+    color: #7895B2;
 }
-#first_para_div>h1:hover{
-color: #7895B2;
-}
-#first_img_div{
+
+#first_img_div {
     width: 40%;
-    /* border: 5px solid #7895B2; */
 }
-#first_img_div>img{
+
+#first_img_div>img {
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-#first_img_div>img:hover{
+
+#first_img_div>img:hover {
     transform: scale(0.9);
+    
 }
-#chat_prac_learn_div{
+
+#chat_prac_learn_div {
     width: 90%;
     margin: auto;
     margin-top: 150px;
-    /* border: 2px solid blueviolet; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-.second_img_para_div{
-    /* border: 3px solid #F66B0E; */
+
+.second_img_para_div {
     padding: 10px 10px 10px 10px;
 }
-.second_img_para_div>div{
+
+.second_img_para_div>div {
     width: 90%;
     height: 350px;
 }
-.second_img_para_div>div>img{
+
+.second_img_para_div>div>img {
     width: 100%;
     padding: 20px 20px 20px 20px;
 }
-.second_img_para_div>div>img:hover{
-    /* border: 2px solid blueviolet; */
+
+.second_img_para_div>div>img:hover {
     transform: scale(1.1);
 }
-.second_img_para_div>p{
-font-size: 20px;
-color: #406882;
-text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.second_img_para_div>p {
+    font-size: 20px;
+    color: #406882;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.second_img_para_div>p:hover{
+
+.second_img_para_div>p:hover {
     text-decoration: underline;
 }
 
-#third_main_div{
+#third_main_div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
     margin: auto;
     margin-top: 40px;
     gap: 30px;
 }
-#your_instructor{
+
+#your_instructor {
     font-size: 40px;
     font-weight: 600;
     color: #406882;
     text-align: center;
     margin-top: 150px;
 }
-.third_img_para_div{
+
+.third_img_para_div {
     display: flex;
     gap: 30px;
     background-color: #bec7cf;
@@ -94,94 +103,105 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     padding: 20px 20px 20px 20px;
 }
-.third_img_para_div:hover{
+
+.third_img_para_div:hover {
     transform: scale(1.05);
 }
-.third_img_div{
+
+.third_img_div {
     width: 100%;
 }
-.third_img_div>img{
+
+.third_img_div>img {
     border: 3px solid #E14D2A;
     border-radius: 50%;
 }
-.third_para_div>p{
+
+.third_para_div>p {
     font-size: 18px;
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
     color: #1A374D;
 }
-.third_h3_logo_div{
+
+.third_h3_logo_div {
     color: #E14D2A;
     font-size: 22px;
     font-weight: 600;
 }
 
-#fourth_main_div{
+#fourth_main_div {
     display: flex;
     width: 90%;
     margin: auto;
     margin-top: 150px;
     gap: 50px;
 }
-#fourth_img_div{
+
+#fourth_img_div {
     width: 30%;
-    /* border: 3px solid red; */
 }
-#fourth_img_div{
+
+#fourth_img_div {
     width: 40%;
 }
-#fourth_h1_btn_div{
+
+#fourth_h1_btn_div {
     width: 60%;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    /* border: 3px solid blue; */
 }
-#fourth_h1_btn_div:hover{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
-#fourth_h1_btn_div>h1{
+
+#fourth_h1_btn_div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#fourth_h1_btn_div>h1 {
     font-size: 30px;
     font-weight: 700;
     color: #406882;
     text-align: center;
-margin-top: 50px;
+    margin-top: 50px;
 }
-#fourth_para_logo_div{
-display: flex;
-width: 70%;
-margin: auto;
+
+#fourth_para_logo_div {
+    display: flex;
+    width: 70%;
+    margin: auto;
 }
-#fourth_para_logo_div>p{
+
+#fourth_para_logo_div>p {
     color: #406882;
     text-align: center;
     margin-top: 60px;
 }
-#fourth_para_logo_div>img{
+
+#fourth_para_logo_div>img {
     width: 40%;
 }
-#fourth_h1_btn_div>button{
+
+#fourth_h1_btn_div>button {
     padding: 10px 40px 10px 40px;
     background-color: #54B435;
     border-radius: 10px;
     margin-left: 50%;
 }
-#fourth_h1_btn_div>button:hover{
+
+#fourth_h1_btn_div>button:hover {
     transform: scale(1.2);
 }
-#why_techno_turtle_main_div{
+
+#why_techno_turtle_main_div {
     display: grid;
     width: 70%;
-    /* border: 2px solid black; */
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;    margin: auto;
-    grid-template-columns: repeat(2,1fr);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    /* transform: rotate(10deg); */
 }
-/* #why_techno_turtle_main_div:hover{
-    transform: rotate(12deg);
-} */
-.why_techno_turtle_div{
-    /* border: 2px solid red; */
+
+.why_techno_turtle_div {
     width: 50%;
     height: 250px;
     margin: auto;
@@ -189,21 +209,25 @@ margin: auto;
     border-radius: 30px;
     padding: 20px 10px 10px 10px;
 }
-.why_techno_turtle_div:hover{
+
+.why_techno_turtle_div:hover {
     transform: rotate(0deg);
 }
-.why_techno_turtle_div>img{
-width: 50%;
-margin: auto;
-border-radius: 50%;
+
+.why_techno_turtle_div>img {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
 }
-.why_techno_turtle_div>h3{
+
+.why_techno_turtle_div>h3 {
     font-size: 25px;
     font-weight: 700;
     text-align: center;
     margin-top: 20px;
 }
-#review_main_div{
+
+#review_main_div {
     width: 90%;
     margin: auto;
     height: 400px;
@@ -214,7 +238,8 @@ border-radius: 50%;
     margin-top: 30px;
     border-radius: 30px;
 }
-#review_main_div>h1{
+
+#review_main_div>h1 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
@@ -222,11 +247,13 @@ border-radius: 50%;
     padding-top: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#review_main_div>img{
-margin: auto;
-margin-top: 20px;
+
+#review_main_div>img {
+    margin: auto;
+    margin-top: 20px;
 }
-#review_main_div>h2{
+
+#review_main_div>h2 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
@@ -234,7 +261,8 @@ margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-#review_main_div>h3{
+
+#review_main_div>h3 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
@@ -242,7 +270,8 @@ margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-#help_main_div{
+
+#help_main_div {
     background-color: #E8DFCA;
     width: 90%;
     height: 700px;
@@ -250,7 +279,8 @@ margin-top: 20px;
     display: flex;
     margin-top: 200px;
 }
-#form_main_div{
+
+#form_main_div {
     width: 40%;
     height: 500px;
     display: block;
@@ -258,7 +288,8 @@ margin-top: 20px;
     margin-top: 150px;
     margin-left: 3%;
 }
-#form_main_div>input{
+
+#form_main_div>input {
     display: block;
     padding: 15px 60px 15px 60px;
     margin-top: 40px;
@@ -266,58 +297,64 @@ margin-top: 20px;
     background-color: #7895B2;
     color: white;
 }
-#form_main_div>button{
+
+#form_main_div>button {
     padding: 10px 70px 10px 70px;
     background-color: #E14D2A;
     border-radius: 10px;
     margin-left: 25%;
     margin-top: 40px;
 }
-#help_details_div{
+
+#help_details_div {
     width: 50%;
-/* border: 5px solid greenyellow; */
 }
-#help_details_div>h1{
-font-size: 30px;
-font-weight: 600;
-color: #E14D2A;
-text-align: center;
-margin-top: 150px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+#help_details_div>h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #E14D2A;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#help_details_div>p{
+
+#help_details_div>p {
     font-size: 20px;
     font-weight: 400;
     color: #406882;
     text-align: center;
 }
-#help_img_logo_div{
+
+#help_img_logo_div {
     display: flex;
     width: 80%;
     margin: auto;
     margin-top: 50px;
 }
-#help_img_logo_div>img{
+
+#help_img_logo_div>img {
     width: 22%;
     height: 100px;
-border-radius: 50%;
+    border-radius: 50%;
 }
-#phn_call_details_div{
+
+#phn_call_details_div {
     width: 100%;
-    /* border: 2px solid black; */
 }
-#phn_call_details_div>p{
+
+#phn_call_details_div>p {
     font-size: 20px;
     font-weight: 400;
     color: #406882;
     text-align: center;
 }
-#phn_call_details_div>h1{
+
+#phn_call_details_div>h1 {
     font-size: 30px;
-font-weight: 600;
-color: green;
-text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: green;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-

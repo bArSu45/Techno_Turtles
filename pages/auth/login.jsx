@@ -5,17 +5,21 @@ import { useRouter } from "next/router";
 import baseUrl from "../../helpers/baseUrl";
 import { useState } from "react";
 
-
 function Login({}){
 
    const [email,setEmail] = useState("")
    const [password,setPassword] = useState("")
    const router  = useRouter()
 
-   const userLogin = async (e)=>{
+   const userLogin = (e)=>{
       e.preventDefault()
-      const res =  await fetch(`${baseUrl}/api/login`,{
-        method:"POST",
+      const payload ={
+         email,password
+      }
+      //console.log(payload)  
+       fetch("https://reqres.in/api/login",{
+          
+       method:"POST",
         headers:{
           "Content-Type":"application/json"
         },
@@ -23,17 +27,21 @@ function Login({}){
           email,
           password
         })
-      })
+      }).then((res)=>res.json())
+      .then((res)=>{localStorage.setItem("token_key",res.token)
+      if(res.token != null){
+         router.push("/")}
+   })
 
-      const res2 = await res.json()
-      if(res2.error){
-        M.toast({html: res2.error,classes:"red"})
-      }else{
-         console.log(res2)
-         router.push("../lecture/index")
-      }
+      .catch((err)=>console.log(err))
+   
+
+ 
   
     }
+
+
+
 
    return (<>
    
