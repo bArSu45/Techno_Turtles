@@ -1,36 +1,52 @@
+
 import styles from "../../styles/signup.module.css";
 import Image from "next/image";
 import logologo from "./logologo.png"
 import { useState } from "react";
 import { useRouter } from "next/router";
-import baseUrl from "../../helpers/baseUrl";
+import axios from "axios";
+
 
 function Signup(){
+
   const[name,setName] =useState("")
   const[email,setEmail] =useState("")
   const[dob,setDob] =useState("")
   const[password,setPassword] =useState("")
-  const router  = useRouter()
+  const router = useRouter()
 
-    const userSignup =async (e)=>{
+    const userSignup =(e)=>{
       e.preventDefault()
-      const res =await fetch(`${baseUrl}/api/signup`,{
+      const payload ={
+        email,password
+      }
+      //console.log(payload) 
+      /*
+      fetch("https://reqres.in/api/register",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
         },
         body:JSON.stringify({
-          name,email,dob,password
+          payload
         })
-      })
-    
-    const res2 = await res.json()
-    if(res2.error){
-      M.toast({html: res2.error,classes:"red"})
-    }else{
-      M.toast({html: res2.message,classes:"green"})
-      router.push("/auth/login")
-    }
+      }).then((res)=>res.json())
+      .then((res)=>{if(res.token != null){
+        router.push("/login")
+      }})
+      .catch((e)=>console.log(e))
+      */
+
+      axios.post("https://reqres.in/api/register",payload)
+      .then((res)=>{
+        console.log(res)
+        if(res.data.token){
+        router.push("/auth/login")
+      }
+      
+    })
+      .catch((e)=>console.log(e))
+
   }
 
 
