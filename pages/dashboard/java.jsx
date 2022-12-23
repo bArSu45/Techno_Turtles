@@ -49,7 +49,7 @@ export default function JavaScript() {
                         <Text className={styles.boxDesc}>{cat.short_desc}</Text>
                         <Text className={styles.boxOffer}>You don't need to pay anything</Text>
                         <Link href={`/lecture/${cat.uniqueId}`}><Button className={styles.boxButton} colorScheme='linkedin' mr='10px'>Learn Now</Button></Link>
-                        <Link href={`/help`}><Button className={styles.boxButton} colorScheme='green' >Take Help</Button></Link>
+                        <Link href={`/chat`}><Button className={styles.boxButton} colorScheme='green' >Take Help</Button></Link>
                     </Box>
                 })}
             </Box>
