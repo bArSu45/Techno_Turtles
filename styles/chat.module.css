@@ -35,13 +35,13 @@
 }
 
 /* <---------------Barsu_Chat-----------------> */
+
 #barsu_main_div {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
     margin-top: 20px;
-    /* border: 2px solid red; */
 }
 
 #barsu_chat_main_div {
@@ -54,63 +54,71 @@
 #input_btn_div {
     width: 54%;
     margin: auto;
-    /* border: 2px solid white; */
     display: flex;
     position: absolute;
     bottom: 0px;
     justify-content: space-between;
 }
-#input_btn_div>input{
+
+#input_btn_div>input {
     padding: 15px 280px 15px 280px;
     background-color: antiquewhite;
     border-radius: 10px;
     color: black;
 }
-#input_btn_div>button{
+
+#input_btn_div>button {
     padding: 15px 25px 15px 25px;
     background-color: green;
     border-radius: 10px;
 }
-#msg_details_div{
+
+#msg_details_div {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     padding: 40px;
 }
-#left_side_msg_div{
-width: fit-content;
-background-color: white;
-color: black;
-padding: 10px;
-border-radius: 10px;
+
+#left_side_msg_div {
+    width: fit-content;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
-#right_side_msg_div{
-width: fit-content;
-background-color: white;
-color: black;
-padding: 10px;
-border-radius: 10px;
+
+#right_side_msg_div {
+    width: fit-content;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* <---------------Khalid_Chat-----------------> */
 
-#khalid_chat_main_div{
+#khalid_chat_main_div {
     width: 60%;
     border-radius: 30px;
-    background: rgb(197,137,64);
-background: linear-gradient(0deg, rgba(197,137,64,1) 0%, rgba(220,194,163,1) 50%, rgba(235,228,228,1) 100%);
+    background: rgb(197, 137, 64);
+    background: linear-gradient(0deg, rgba(197, 137, 64, 1) 0%, rgba(220, 194, 163, 1) 50%, rgba(235, 228, 228, 1) 100%);
 }
+
 /* <---------------Khalid_Chat-----------------> */
-#jyoti_chat_main_div{
+
+#jyoti_chat_main_div {
     width: 60%;
     border-radius: 30px;
-    background: rgb(120,149,178);
-background: linear-gradient(0deg, rgba(120,149,178,1) 0%, rgba(193,207,221,1) 50%, rgba(235,228,228,1) 100%);
+    background: rgb(120, 149, 178);
+    background: linear-gradient(0deg, rgba(120, 149, 178, 1) 0%, rgba(193, 207, 221, 1) 50%, rgba(235, 228, 228, 1) 100%);
 }
+
 /* <---------------Khalid_Chat-----------------> */
-#dora_chat_main_div{
+
+#dora_chat_main_div {
     width: 60%;
     border-radius: 30px;
-    background: rgb(118,84,154);
-background: linear-gradient(0deg, rgba(118,84,154,1) 0%, rgba(192,178,207,1) 50%, rgba(235,228,228,1) 100%);
+    background: rgb(118, 84, 154);
+    background: linear-gradient(0deg, rgba(118, 84, 154, 1) 0%, rgba(192, 178, 207, 1) 50%, rgba(235, 228, 228, 1) 100%);
 }
