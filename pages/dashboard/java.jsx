@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import styles from '../../styles/dashboard.module.css'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Navbar from "../../components/Navbar";
 
 export default function JavaScript() {
 
@@ -18,13 +19,14 @@ export default function JavaScript() {
     const router = useRouter();
     const isAuth = true
 
-    useEffect(() => {
-        if (!isAuth) {
-            router.push('/auth/login')
-        }
-    }, [isAuth])
+    // useEffect(() => {
+    //     if (!isAuth) {
+    //         router.push('/auth/login')
+    //     }
+    // }, [isAuth])
 
     return <div id={styles.dashboardMain}>
+        <Navbar />
         <Heading id={styles.goalHead}>Choose your goal</Heading>
         <Box id={styles.dashboardDiv}>
             <Box id={styles.dashSidebar}>
