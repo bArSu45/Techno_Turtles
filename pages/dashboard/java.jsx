@@ -1,7 +1,8 @@
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from '../../styles/dashboard.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function JavaScript() {
 
@@ -12,7 +13,16 @@ export default function JavaScript() {
         { id: 5, uniqueId: 'javafunint', name: 'Funcational Interface', short_desc: "Java", img: "https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png" },
         { id: 4, uniqueId: 'javaoops', name: "Introduction of OOP's", short_desc: "Java", img: "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000" },
         { id: 6, uniqueId: 'javastream', name: 'Java Stream API', short_desc: "Java", img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg" },
-    ]
+    ];
+
+    const router = useRouter();
+    const isAuth = true
+
+    useEffect(() => {
+        if (!isAuth) {
+            router.push('/auth/login')
+        }
+    }, [isAuth])
 
     return <div id={styles.dashboardMain}>
         <Heading id={styles.goalHead}>Choose your goal</Heading>

@@ -1,7 +1,8 @@
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from '../../styles/dashboard.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export default function ReactJs() {
 
@@ -12,7 +13,16 @@ export default function ReactJs() {
         { id: 4, uniqueId: 'rctmng', name: 'State Management', short_desc: "ReactJs", img: "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000" },
         { id: 5, uniqueId: 'rctusefct', name: 'useEffect', short_desc: "ReactJs", img: "https://cdn.computercareers.org/wp-content/uploads/web-development.jpg" },
         { id: 6, uniqueId: 'rctuseref', name: 'UseRef', short_desc: "ReactJs", img: "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg" },
-    ]
+    ];
+
+    const router = useRouter();
+    const isAuth = true
+
+    useEffect(() => {
+        if (!isAuth) {
+            router.push('/auth/login')
+        }
+    }, [isAuth])
 
     return <div id={styles.dashboardMain}>
         <Heading id={styles.goalHead}>Choose your goal</Heading>

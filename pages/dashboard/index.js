@@ -1,18 +1,29 @@
 import { Box, Button, Heading, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from '../../styles/dashboard.module.css'
 import Link from 'next/link'
-
-const categories = [
-    { uniqueId: 'jsintro', id: 1, name: 'Introduction to JavaScript', short_desc: "JavaScript", img: "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000" },
-    { uniqueId: 'jsarithopr', id: 2, name: 'JS Arithmetic Operators', short_desc: "JavaScript", img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg" },
-    { uniqueId: 'jscomop', id: 3, name: 'Comparison Operators', short_desc: "JavaScript", img: "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg" },
-    { uniqueId: 'jsconstate', id: 4, name: 'Conditional Statements', short_desc: "JavaScript", img: "https://www.webskittersacademy.in/wp-content/uploads/2015/08/Web-Developer-skill.jpg" },
-    { uniqueId: 'jsconlog', id: 5, name: 'Logical Operators', short_desc: "JavaScript", img: "https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png" },
-    { uniqueId: 'jswhilloop', id: 6, name: 'While Loops', short_desc: "JavaScript", img: "https://cdn.computercareers.org/wp-content/uploads/web-development.jpg" }
-];
+import { useRouter } from 'next/router'
 
 const Dashborad = () => {
+
+    const categories = [
+        { uniqueId: 'jsintro', id: 1, name: 'Introduction to JavaScript', short_desc: "JavaScript", img: "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000" },
+        { uniqueId: 'jsarithopr', id: 2, name: 'JS Arithmetic Operators', short_desc: "JavaScript", img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg" },
+        { uniqueId: 'jscomop', id: 3, name: 'Comparison Operators', short_desc: "JavaScript", img: "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg" },
+        { uniqueId: 'jsconstate', id: 4, name: 'Conditional Statements', short_desc: "JavaScript", img: "https://www.webskittersacademy.in/wp-content/uploads/2015/08/Web-Developer-skill.jpg" },
+        { uniqueId: 'jsconlog', id: 5, name: 'Logical Operators', short_desc: "JavaScript", img: "https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png" },
+        { uniqueId: 'jswhilloop', id: 6, name: 'While Loops', short_desc: "JavaScript", img: "https://cdn.computercareers.org/wp-content/uploads/web-development.jpg" }
+    ];
+
+    const router = useRouter();
+    const isAuth = true
+
+    useEffect(() => {
+        if (!isAuth) {
+            router.push('/auth/login')
+        }
+    }, [isAuth])
+
     return <div id={styles.dashboardMain}>
         <Heading id={styles.goalHead}>Choose your goal</Heading>
         <Box id={styles.dashboardDiv}>
