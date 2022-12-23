@@ -5,15 +5,16 @@
 
 <h2>Team Member :-</h2>
 </br>
-[Jyoti Prakash](https://github.com/JYOTIPM1999)
-[Khalid Shah](https://github.com/Khalidshah12/) 
-[Barsa Rani Ojha](https://github.com/bArSu45)
-[Priyanka Dora](https://github.com/priyankadora20D)
+<p>Jyoti Prakash :https://github.com/JYOTIPM1999 </p>
+<p>Khalid Shah : https://github.com/Khalidshah12</p>
+<p>Barsa Rani Ojha : https://github.com/bArSu45</p>
+<p>Priyanka Dora : https://github.com/priyankadora20</p>
 
-<p>Deployed link: </p>
+<h2>Website picture</h2>
 
-## Have a Look 😍
+<p>Website link : </p>
 
+</br>
 <img src="https://user-images.githubusercontent.com/105920094/209295805-f6211185-f6ab-4cdb-b99d-f32ae7ed9dc1.png"/>
 
 <img src="https://user-images.githubusercontent.com/105920094/209295816-d52c2822-f0f5-4864-89c3-52d1ee9f9503.png"/>
