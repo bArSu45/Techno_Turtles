@@ -1,6 +1,7 @@
 <h1>TECHNO TURTLEs </h1>
 </br>
-<p>Educational website with using nextjs and websocket with our own creative idea.Techno Turtles is an e-learning platform where u can learn lessons, chat with instructor and build your career.</P>
+<p>Techno Turtles is an e-learning platform where u can learn lessons, chat with instructor and build your career.</P>
+<p>Build this website with using nextjs and websocket with our own creative idea.</p>
 
 <h2>Team Member :-</h2>
 </br>
