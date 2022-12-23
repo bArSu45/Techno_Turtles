@@ -1,4 +1,4 @@
-import { Link } from '@chakra-ui/layout'
+import Link from "next/link";
 import React from 'react'
 import style from "/styles/chat.module.css"
 export default function Chat() {

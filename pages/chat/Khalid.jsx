@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "/styles/chat.module.css"
-import { Link } from '@chakra-ui/layout'
+import Link from "next/link";
 export default function Khalid() {
   return (
     <div id={style.barsu_main_div}>
