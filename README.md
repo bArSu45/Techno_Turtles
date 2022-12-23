@@ -26,3 +26,6 @@
 <img src="https://user-images.githubusercontent.com/105920094/209295831-31f0a2b0-fea6-45a1-95af-7e308c12b0c7.png"/>
 
 <img src="https://user-images.githubusercontent.com/105920094/209295842-34bb3b3a-9c5f-4461-b43a-7e31504bd935.png"/>
+ <h2>our powerpoint presentation :-</h2>
+ 
+[techno turtle ppt.pptx](https://github.com/bArSu45/Techno_Turtles/files/10294040/techno.turtle.ppt.pptx)
