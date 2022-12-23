@@ -52,7 +52,7 @@ export default function Footer() {
                         <a href="">Cookies Policy</a>
                     </div>
                 </div>
-                <div id="copyright">Copyright © Devart 2022
+                <div id="copyright">Copyright © Reserved 2022
                     <div>
                         <a href="">
                             <i class="fab fa-facebook fa-lg"></i>
