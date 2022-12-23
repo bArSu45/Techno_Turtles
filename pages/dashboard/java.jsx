@@ -16,8 +16,8 @@ export default function JavaScript() {
         { id: 6, uniqueId: 'javastream', name: 'Java Stream API', short_desc: "Java", img: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201706/web-development-647_062317054646.jpg" },
     ];
 
-    const router = useRouter();
-    const isAuth = true
+    // const router = useRouter();
+    // const isAuth = true
 
     // useEffect(() => {
     //     if (!isAuth) {

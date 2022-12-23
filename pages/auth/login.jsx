@@ -29,9 +29,9 @@ function Login({ }) {
          })
       }).then((res) => res.json())
          .then((res) => {
-            localStorage.setItem("token_key", res.token)
             if (res.token != null) {
                router.push("/")
+               localStorage.setItem("token_key", res.token)
             }
          })
 
