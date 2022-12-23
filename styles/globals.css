@@ -5,3 +5,63 @@
 }
 
 
+.footer-container {
+  margin-top: 150px;
+  background-color: #406882;
+  font-family: 'PT Root UI Regular', sans-serif;
+  font-size: 13px;
+}
+
+.footer {
+  padding: 40px 20px 10px 20px;
+  background-color: #aebdca;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3%;
+  gap: 15px;
+  color: #3A3E42;
+}
+
+.col-1 {
+  margin-right: 8%;
+}
+
+.footer-container a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-container i {
+  color: #777E85;
+}
+
+#navhr {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#copyright {
+  display: flex;
+  gap: 32%;
+  padding: 0 0 20px 20px;
+  color: #212529;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+
+.fab {
+  margin-right: 10px;
+
+}
