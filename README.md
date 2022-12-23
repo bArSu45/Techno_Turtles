@@ -12,7 +12,7 @@
 
 <h2>Website picture</h2>
 
-<p>Website link : </p>
+<p>Website link : https://techno-turtles-barsu45.vercel.app</p>
 
 </br>
 <img src="https://user-images.githubusercontent.com/105920094/209295805-f6211185-f6ab-4cdb-b99d-f32ae7ed9dc1.png"/>
@@ -26,3 +26,13 @@
 <img src="https://user-images.githubusercontent.com/105920094/209295831-31f0a2b0-fea6-45a1-95af-7e308c12b0c7.png"/>
 
 <img src="https://user-images.githubusercontent.com/105920094/209295842-34bb3b3a-9c5f-4461-b43a-7e31504bd935.png"/>
+
+![9](https://user-images.githubusercontent.com/105920094/209317457-d19f5286-cc35-4ab4-bc06-e58684e3cdcc.png)
+
+![11222](https://user-images.githubusercontent.com/105920094/209317535-5226c7de-5a9d-4f81-a7af-8fc2741cc131.png)
+
+ <h2>our powerpoint presentation :-</h2>
+ 
+[techno turtle ppt.pptx](https://github.com/bArSu45/Techno_Turtles/files/10294040/techno.turtle.ppt.pptx)
+
+
