@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link href='/'><Image
             cursor='pointer'
             h={"100%"}
-            src="https://res.cloudinary.com/dehubjbqm/image/upload/v1671645479/Logo_juatbw.png"
+            src="/images/techno.png"
           /></Link>
         </Box>
         <Flex
