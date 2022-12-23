@@ -30,16 +30,16 @@ export default function JavaScript() {
         <Heading id={styles.goalHead}>Choose your goal</Heading>
         <Box id={styles.dashboardDiv}>
             <Box id={styles.dashSidebar}>
-                <Link href='/dashboard/javascript'><Heading fontSize='20px' className={styles.sidebarHeadings}>JavaScript</Heading></Link>
-                <Link href='/dashboard/reactjs'><Heading fontSize='20px' className={styles.sidebarHeadings}>ReactJs</Heading></Link>
-                <Link href='/dashboard/java'><Heading fontSize='20px' className={styles.sidebarHeadings}>Java</Heading></Link>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>Angular</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>Python</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>DSA</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>MongoDB</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>NodeJs</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>Express</Heading>
-                <Heading fontSize='20px' className={styles.sidebarHeadings}>NextJs</Heading>
+                <Link href='/dashboard/javascript'><Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>JavaScript</Heading></Link>
+                <Link href='/dashboard/reactjs'><Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>ReactJs</Heading></Link>
+                <Link href='/dashboard/java'><Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>Java</Heading></Link>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>Angular</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>Python</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>DSA</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>MongoDB</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>NodeJs</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>Express</Heading>
+                <Heading fontSize={['14px', '16px', '18px', '20px']} className={styles.sidebarHeadings}>NextJs</Heading>
             </Box>
             <Box id={styles.dashVideos}>
                 {categories.map((cat) => {
