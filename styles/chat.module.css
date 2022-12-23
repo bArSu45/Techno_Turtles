@@ -1,6 +1,5 @@
 #sidebar_main_container {
     width: 35%;
-    /* border: 2px solid white; */
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -8,7 +7,6 @@
 .sidebar_details_main_div {
     margin-top: 20px;
     display: flex;
-    /* border: 3px solid white; */
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 20px;
@@ -27,7 +25,6 @@
 
 .instructor_name_div {
     width: 80%;
-    /* border: 1px solid red; */
 }
 
 .instructor_name_div>h1 {
