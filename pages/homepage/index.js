@@ -42,7 +42,7 @@ const HomePage = () => {
     <div id={style.third_main_div}>
       <div className={style.third_img_para_div}>
         <div className={style.third_img_div}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8eCsr2-dOzB8bGFCpv_4OY5c0a-eV5adytdPcKlTLBCPd8gWTWUkIxQR5MjABUtO6daU&usqp=CAU" alt="none" />
+          <img src="/images/khalid.jpg" alt="none" />
         </div>
         <div>
           <div className={style.third_para_div}>
@@ -56,7 +56,7 @@ const HomePage = () => {
 
       <div className={style.third_img_para_div}>
         <div className={style.third_img_div}>
-          <img src="https://t4.ftcdn.net/jpg/02/79/66/93/360_F_279669366_Lk12QalYQKMczLEa4ySjhaLtx1M2u7e6.jpg" alt="none" />
+          <img src="/images/barsu.jpeg" alt="none" />
         </div>
         <div>
           <div className={style.third_para_div}>
@@ -70,7 +70,7 @@ const HomePage = () => {
 
       <div className={style.third_img_para_div}>
         <div className={style.third_img_div}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8eCsr2-dOzB8bGFCpv_4OY5c0a-eV5adytdPcKlTLBCPd8gWTWUkIxQR5MjABUtO6daU&usqp=CAU" alt="none" />
+          <img src="/images/jyoti.jpg" alt="none" />
         </div>
         <div>
           <div className={style.third_para_div}>
@@ -84,7 +84,7 @@ const HomePage = () => {
 
       <div className={style.third_img_para_div}>
         <div className={style.third_img_div}>
-          <img src="https://t4.ftcdn.net/jpg/02/79/66/93/360_F_279669366_Lk12QalYQKMczLEa4ySjhaLtx1M2u7e6.jpg" alt="none" />
+          <img src="/images/dora.jpg" alt="none" />
         </div>
         <div>
           <div className={style.third_para_div}>
