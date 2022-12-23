@@ -1,6 +1,14 @@
 import React from "react";
 import style from "/styles/Home.module.css"
+import { useRouter } from 'next/router'
+
 const HomePage = () => {
+  const router = useRouter();
+
+  const HandleDash = () => {
+    router.push('/auth/login')
+  }
+
   return <div id={style.main_div}>
     <div id={style.first_div}>
       <div id={style.first_para_div}>
@@ -98,7 +106,7 @@ const HomePage = () => {
           <p>Get unlimited access to structured courses & doubt clearing sessions.</p>
           <img src="https://res.cloudinary.com/dehubjbqm/image/upload/v1671645479/Logo_juatbw.png" />
         </div>
-        <button>Start Learning</button>
+        <button onClick={() => HandleDash()} >Start Learning</button>
       </div>
     </div>
 
