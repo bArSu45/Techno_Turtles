@@ -15,9 +15,9 @@ export default function JavaScript() {
         { uniqueId: 'jsconlog', id: 5, name: 'Logical Operators', short_desc: "JavaScript", img: "https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png" },
         { uniqueId: 'jswhilloop', id: 6, name: 'While Loops', short_desc: "JavaScript", img: "https://cdn.computercareers.org/wp-content/uploads/web-development.jpg" }
     ]
-    const router = useRouter();
+    // const router = useRouter();
 
-    const isAuth = true
+    // const isAuth = true
 
     // useEffect(() => {
     //     if (!isAuth) {

@@ -16,8 +16,8 @@ export default function ReactJs() {
         { id: 6, uniqueId: 'rctuseref', name: 'UseRef', short_desc: "ReactJs", img: "https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg" },
     ];
 
-    const router = useRouter();
-    const isAuth = true
+    // const router = useRouter();
+    // const isAuth = true
 
     // useEffect(() => {
     //     if (!isAuth) {

@@ -16,8 +16,8 @@ const Dashborad = () => {
         { uniqueId: 'jswhilloop', id: 6, name: 'While Loops', short_desc: "JavaScript", img: "https://cdn.computercareers.org/wp-content/uploads/web-development.jpg" }
     ];
 
-    const router = useRouter();
-    const isAuth = true
+    // const router = useRouter();
+    // const isAuth = true
 
     // useEffect(() => {
     //     if (!isAuth) {
