@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { IoMdLogIn } from "react-icons";
 
 export default function Navbar() {
   return (
@@ -27,8 +28,8 @@ export default function Navbar() {
           <Text>Classes</Text>
           <Text>About</Text>
           <Text>
-            Login/Signup 
-            {/* <IoMdLogIn /> */}
+            Login/Signup
+            <IoMdLogIn />
           </Text>
         </Flex>
       </Flex>
